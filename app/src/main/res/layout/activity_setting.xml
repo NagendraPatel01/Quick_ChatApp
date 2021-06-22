@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SettingActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/save"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_manage_accounts_24"
+
+            android:layout_margin="10dp">
+
+        </ImageView>
+
+    </RelativeLayout>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/friend">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:backgroundTint="#000"/>
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edit_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Status"
+        android:textSize="15dp"
+        android:textColor="#000"
+        android:backgroundTint="#000"/>
+
+</LinearLayout>

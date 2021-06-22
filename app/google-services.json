@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "640872063853",
+    "project_id": "mom-chatapp-a389e",
+    "storage_bucket": "mom-chatapp-a389e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640872063853:android:177154e211fc95e39db064",
+        "android_client_info": {
+          "package_name": "com.hackerkernel.momchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640872063853-ojo1jq0d05snfjj7j86jq2gv0d134uje.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hackerkernel.momchatapp",
+            "certificate_hash": "01f4db33aea1864034c6b1d0dc4cd1b165cd962b"
+          }
+        },
+        {
+          "client_id": "640872063853-2jos3ufq1ic94onujbhlj4v0ic8r383h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMJK7rW2oiBepU1uK7ZeMiH4w6lbgAzbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640872063853-2jos3ufq1ic94onujbhlj4v0ic8r383h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

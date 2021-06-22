@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:background="#050A27"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:src="@drawable/images">
+
+       </de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quick Chat"
+            android:fontFamily="@font/color"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="25dp">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/color2"
+            android:text="Chat With your Favourite Person and A \n cup of Tea."
+            android:textColor="#BFB9B9"
+            android:textSize="20dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From"
+            android:fontFamily="@font/color"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nagendra Patel"
+            android:textColor="#fff"
+            android:fontFamily="@font/color"
+            android:textStyle="bold"
+            android:textSize="25dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
